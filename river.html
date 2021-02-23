@@ -1,0 +1,60 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Clear the river!</title>
+<link href="style.css" rel="stylesheet" type="text/css">
+
+
+</head>
+
+<body>
+<audio id="bgm4" autoplay loop >
+  <source src="audio/bgm.mp3">
+  </source>
+</audio>
+<div id="container">
+  <img src="images/river.png" width="600" height="401" alt=""/>
+  <div id="plasticbottle">
+<img src="images/plasticbottle.png" alt="" width="90" height="90" onClick="clean(); MM_DW_effectPuff($('#plasticbottle'),'hide','puff',150,1000)"/>
+</div>
+<div id="plasticbottletwo">
+<img src="images/plasticbottle.png" alt="" width="90" height="90" onClick="clean(); MM_DW_effectPuff($('#plasticbottletwo'),'hide','puff',150,1000)"/>
+</div>
+<div id="plasticcup">
+<img src="images/plasticcup.png" alt="" width="75" height="75" onClick="clean(); MM_DW_effectPuff($('#plasticcup'),'hide','puff',150,1000)"/> </div>
+<div id="plasticbag">
+  <img src="images/plasticbag.png" alt="" width="85" height="90" onClick="clean(); MM_DW_effectPuff($('#plasticbag'),'hide','puff',150,1000)"/> </div>
+  <div id="can">
+  <img src="images/candrink.png" alt="" width="150" height="90" onClick="clean(); MM_DW_effectPuff($('#can'),'hide','puff',150,1000)"/> </div>
+  <div id="styrofoambox">
+  <img src="images/styrofoambox.png" alt="" width="85" height="85" onClick="clean(); MM_DW_effectPuff($('#styrofoambox'),'hide','puff',150,1000)"/> </div>
+  
+<div id="dialogue">
+Clear the river so Mudkip can use SURF and you can get to Team Rocket!
+</div>
+</div>
+</body>
+<script src="jQueryAssets/jquery-1.11.1.min.js" type="text/javascript"></script>
+<script src="jQueryAssets/jquery-ui-effects.custom.min.js" type="text/javascript"></script>
+<script type="text/javascript">
+function MM_DW_effectPuff(obj,method,effect,percent,speed)
+{
+    obj[method](effect, { percent:percent}, speed);
+}
+</script>
+<script>
+
+var counter=0;
+function clean() {
+  counter++;
+  if(counter==6) {
+    window.location.href="riverclear.html"}
+ 
+      }
+</script>
+<script>
+alert("Look what Team Rocket has done again. Click on the thrash to clear the river!");
+
+</script>
+</html>

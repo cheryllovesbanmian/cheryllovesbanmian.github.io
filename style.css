@@ -1,0 +1,133 @@
+@charset "UTF-8";
+body {
+}
+#container {
+margin:0 auto;
+width: 600px;
+position:relative;
+}
+
+#dialogue {
+	position: absolute;
+	width: 500px;
+	height: 70px;
+	background: rgba(0,0,0,0.6);
+	padding-left: 12px;
+	padding-top: 9px;
+	padding-bottom: 7px;
+	left: 53px;
+	top: 297px;
+	font-size: 16px;
+	color: white;
+	border: medium ridge #C6C0C0;
+	text-align: left;
+	
+}
+
+#next {
+	position: absolute;
+	left: 448px;
+	top: 27px;
+} 
+
+
+#routeone {
+	position: absolute;
+	left: 177px;
+	top: 113px;
+}
+
+
+#routetwo {
+	position: absolute;
+	left: 280px;
+	top: 163px;
+}
+
+#berrybag {
+	position: absolute;
+	left: 259px;
+	top: 76px;
+}
+#egg {
+	position: absolute;
+	left: 463px;
+	top: 80px;
+}
+#pokeball {
+	position: absolute;
+	left: 491px;
+	top: 200px;
+}
+#rope {
+	position: absolute;
+	left: 406px;
+	top: 185px;
+}
+
+#soda {
+	position: absolute;
+	left: 339px;
+	top: 213px;
+}
+
+#spade {
+	position: absolute;
+	left: 233px;
+	top: 178px;
+}
+#wateringcan {
+	position: absolute;
+	left: 381px;
+	top: 97px;
+}
+
+#mask{
+	position: absolute;
+	width: 600px;
+	height: 300px;
+	left: 1px;
+	top: 1px;
+}
+
+#buttons{
+	position: absolute;
+	left: 94px;
+	top: 30px;
+}
+
+#plasticbottle{
+	position: absolute;
+	left: 84px;
+	top: 111px;
+}
+
+#plasticcup{
+	position: absolute;
+	left: 200px;
+	top: 151px;
+}
+
+#plasticbag{
+	position: absolute;
+	left: 282px;
+	top: 196px;
+}
+
+#can{
+	position: absolute;
+	left: 98px;
+	top: 205px;
+}
+
+#styrofoambox{
+	position: absolute;
+	left: 459px;
+	top: 200px;
+}
+
+#plasticbottletwo{
+	position: absolute;
+	left: 364px;
+	top: 146px;
+}
